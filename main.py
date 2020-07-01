@@ -2,11 +2,14 @@ from glob import glob
 import pandas as pd
 import csv
 
+#CHANGE YOUR PATH
 data_dirB = "E:\\Masaüstü\\BBC NEWS\\RAW\\bbc\\business"
 data_dirE = "E:\\Masaüstü\\BBC NEWS\\RAW\\bbc\\entertainment"
 data_dirP = "E:\\Masaüstü\\BBC NEWS\\RAW\\bbc\\politics"
 data_dirS = "E:\\Masaüstü\\BBC NEWS\\RAW\\bbc\\sport"
 data_dirT = "E:\\Masaüstü\\BBC NEWS\\RAW\\bbc\\tech"
+#CHANGE YOUR PATH
+
 filesB = glob(data_dirB + "/*.txt")
 filesE = glob(data_dirE + "/*.txt")
 filesP = glob(data_dirP + "/*.txt")
